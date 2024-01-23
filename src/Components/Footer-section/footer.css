@@ -1,0 +1,35 @@
+.footer {
+    background: #035c1a;
+}
+
+.follows span a{
+    text-decoration: none;
+}
+
+.follows span {
+    margin-left: 15px;
+}
+
+.link_list .link_item {
+    background: transparent;
+}
+
+.link_list a:hover {
+    color: #035c1a;
+}
+
+.link_list a {
+    text-decoration: none;
+    color: gray;
+    font-weight: 500;
+}
+
+.links_socials a:hover {
+    color: #035c1a;
+}
+
+@media only screen and (max-width: 991px){
+    .footer{
+        padding: 20px;
+    }
+}

@@ -1,0 +1,53 @@
+.offer_title img{
+    width: 25px;
+    height: 25px;
+    
+    
+
+}
+
+.offer_title {
+    font-size: 1rem;
+    color: #112b1b;
+    font-weight: 500;
+}
+
+.offer_content {
+    padding: 20px;
+}
+
+.btn-offer {
+    background: linear-gradient(150.2deg, rgb(10,150,180) 6.5%, rgb(7,150,32) 97.5%);
+    color: #fff;
+    font-weight: 620;
+    background: #07a620;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    margin-top: 25px;
+    letter-spacing: 2px;
+    
+
+}
+
+.btn-offer {
+    color: #fff;
+    text-decoration: none;
+    border-radius: 15px;
+    font-weight: 620;
+    background: #07a620;
+    border: none;
+    padding: 1rem;
+    font-size: 16px;
+    width: 40%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 0 0 rgba(7,150,32,0.5),0 0 0 0rgb(10.150.180.0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-offer:hover {
+    transform: translate(0,-6px);
+    box-shadow: 10px -10px 25px 0 rgba(7,150,32,0.5),-10px +10px 25px 0 rgba(15,180,40,0.5);
+}
